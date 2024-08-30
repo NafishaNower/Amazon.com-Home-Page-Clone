@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/**********************NAVBAR********************************/
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+}
+/**Box1**/
+.nav-amazonLogo{
+    background-image: url("Amazon-Logo.png");
+    height: 50px;
+    width: 113px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: transparent;
+}
+
+.nav-amazonLogo:hover {
+    border: 1.4px solid white;
+}
+/**Box2**/
+.nav-location{
+    height: 50px;
+    width: 115px;
+    border: transparent;
+}
+.nav-location p{
+    font-size: 12px;
+    color: #cccccc;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.nav-location pre{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.nav-location:hover {
+    border: 1.4px solid white;
+}
+/**Box3**/
+
+.nav-searchBar{
+    display: flex;
+}
+.nav-searchBar:hover{
+    border: 2px solid orange;
+}
+#searchIcon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : rgb(255, 196, 0);
+    color: #000;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.search-select{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 52px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-left: 10px;
+    border: 0px;
+}
+.type-search{
+    width: 450px;
+    font-size: 14px;
+    border: 0px;
+    padding-left: 7px;
+}
+
+/**Box4**/
+.nav-language{
+    width: 74px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-img {
+    width: 16px; 
+    height: 14px; 
+    margin-right: 8px; 
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.nav-language select{
+    color: #FFFFFF;
+    background-color: #0F1111;
+    font-size: 14px;
+    border: transparent;
+    padding-left: 0px;
+}
+.nav-language:hover {
+    border: 1.4px solid white;
+}
+/**Box5**/
+.accounts{
+    width: 132px;
+    height: 50px;
+
+}
+.accounts p{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.accounts select{
+    color: #FFFFFF;
+    background-color: #0F1111;
+    font-size: 14px;
+    font-weight: bold;
+    border: transparent;
+}
+.accounts:hover {
+    border: 1.4px solid white;
+}
+
+/**Box6**/
+.returnOrder{
+    height:50px ;
+    width: 77px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: transparent;
+    box-sizing: border-box; 
+}
+#one{
+    font-size: 12px;
+}
+#two{
+    font-size: 14px;
+    font-weight: bold; 
+}
+.returnOrder:hover {
+    border: 1.4px solid white;
+}
+
+/**Box7**/
+
+.nav-cart{
+    width: 84px;
+    height: 50px;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-cart pre{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart:hover {
+    border: 1.4px solid white;
+}
+
+/***************************PANEL***************************/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 14px;
+}
+.panel-all{
+    width: 59px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.panel-all i{
+    padding-right: 4px;
+}
+.panel-all:hover {
+    border: 1.2px solid white;
+}
+
+
+.panel-options a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.panel-options{
+    display: flex; 
+}
+#box1, #box2, #box3, #box4, #box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    box-sizing: border-box;
+}
+
+
+#box1 { width: 103px; }
+#box2 { width: 129px; }
+#box3 { width: 70px; }
+#box4 { width: 81px; }
+#box5 { width: 42px; }
+
+#box1:hover {
+    border: 1.2px solid white;
+}
+#box2:hover {
+    border: 1.2px solid white;
+}
+#box3:hover {
+    border: 1.2px solid white;
+}
+#box4:hover {
+    border: 1.2px solid white;
+}
+#box5:hover {
+    border: 1.2px solid white;
+}
+
+/***************************HERO SECTION***************************/
+
+.hero-section {
+    background-image: url("Hero-section-img.jpg");
+    height: 280px;
+    background-size: cover;
+    position: relative; 
+    z-index: 1;
+}
+
+.hero-section i {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 40px; 
+    color: white; 
+    cursor: pointer; 
+}
+
+#left {
+    left: 20px; 
+}
+
+#right {
+    right: 20px; 
+}
+
+/***************************TYPE 1 CONTAINER***************************/
+
+
+.containerType1 {
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+    top: 70%;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom, black 10%, rgb(224, 223, 223) 100%);
+    padding: 0 10px; 
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.gaming, .fashion, .space-decoration, .home-decoration {
+    height: 100%; 
+    width: 23%; 
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.gaming-header,.fashion-header,.space-decoration-header{
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.gaming-content1,.gaming-content2,.fashion-content1,.fashion-content2,.space-decoration-content1,.space-decoration-content2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#headset,#keyboard,#computer-mice,#chair,#jeans,#tops,#dress,#shoe,#dining,#home,#kitchen,#healthAndBeauty{
+    height: 120px;
+    width: 120px;
+}
+.headset-img,.keyboard-img,.computer-mice-img,.chair-img,.jeans-img,.tops-img,.dress-img,.shoe-img,.dining-img,.home-img,.kitchen-img,.healthAndBeauty-img{
+    height: 90px;
+    width: 120px;
+}
+#headset a,#keyboard a,#computer-mice a,#chair a,#jeans a,#tops a,#dress a,#shoe a,#dining a,#home a,#kitchen a,#healthAndBeauty a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0F1111;
+    
+}
+.gaming-footer,.fashion-footer,.space-decoration-footer{
+    width: 50%;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.gaming-footer a,.fashion-footer a,.space-decoration-footer a{
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.home-decoration-header{
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.home-decoration-content1,.home-decoration-content2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-decoration-content2{
+    height: 145px;
+}
+
+#kitchenAndDining,#homeImprovement,#decor,#beddingAndBathing{
+    height: 120px;
+    width: 120px;
+}
+.kitchenAndDining-img,.homeImprovement-img,.decor-img,.beddingAndBathing-img{
+    height: 90px;
+    width: 120px;
+}
+#kitchenAndDining a,#homeImprovement a,#decor a,#beddingAndBathing a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0F1111;
+    
+}
+.home-decoration-footer{
+    width: 50%;
+    height: 20px;
+    padding-left: 20px;
+}
+.home-decoration-footer a{
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.spaceBetween{
+    height: 25px;
+    width: 100%;
+    background-color:  rgb(224, 223, 223);
+    
+}
+
+/***************************TYPE 2 CONTAINER***************************/
+
+.containerType2 {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    position: relative; 
+    width: 100%;
+    height: 400px;
+    background-color: rgb(224, 223, 223); 
+    padding: 0 10px; 
+    box-sizing: border-box;
+    z-index: 2; 
+}
+
+.pc, .schoolShop, .toy, .beauty {
+    height: 100%; 
+    width: 23%; 
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.pc-header,.schoolShop-header,.toy-header,.beauty-header{
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pc-img,.schoolShop-img,.toy-img,.beauty-img{
+    height: 295px;
+    width: 85%;
+    padding-left: 22px;
+    padding-top: 10px;
+
+}
+.pc-footer,.schoolShop-footer,.toy-footer,.beauty-footer{
+    width: 50%;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.pc-footer a,.schoolShop-footer a,.toy-footer a,.beauty-footer a{
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+}
